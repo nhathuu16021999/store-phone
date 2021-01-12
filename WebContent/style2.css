@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Slabo 27px', serif;
+    background-color: #c7ecee;
+}
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+.head {
+    margin-top: 30px;
+    position: relative;
+    font-size: 35px;
+}
+
+.head-left {
+    top: 50%;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.head-center {
+    text-align: center;
+}
+
+.head-right {
+    top: 50%;
+    position: absolute;
+     display:inline-block;
+    right: 0;
+    margin-right: 100px;
+}
+.logout{
+	text-decoration: underline;
+	margin-right:10px;
+	font-size:16px;
+}
+
+.spbc {
+    margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+hr {
+    margin-top: -7px;
+    width: 150px;
+    height: 1.5px;
+    background: black;
+}
+.titlename{
+    font-size: 30px;
+    color:orange;
+    margin-left: 36vw;
+}
+.list-post {
+    margin-left: 20vw;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    position: relative;
+    display: flex;
+}
+.anhthongtin{
+    width: 45%;
+    height: 45%;
+}
+.post {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+legend {
+    width: 5vw;
+    padding: 1%;
+    background-color: #ff9c00;
+    color: black;
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+
+.post:hover .namemh:hover {
+    color: red;
+}
+.post img:hover{
+    width: 305px;
+    height: 355px;
+}
+.themvaogio {
+    border: 1px solid black;
+    border-radius: 10px;
+    background: red;
+    padding: 8px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    font-size: 12px;
+}
+.post:hover .themvaogio:hover {
+    background: darkgray;
+}
+.post img {
+    width: 300px;
+    height: 350px;
+}
+
+.post .themvaogio {
+    color:  cornsilk;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.anh1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 97%;
+}
+.itg{
+    margin-top: 100px;
+}
+.last {  
+    background: #333333;
+    color: aqua;
+}
+
+.last a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.last a:hover {
+    text-decoration: underline;
+}
+
+.last .last-left {
+    width: 30%;
+    display: inline-block;
+    margin-left: 15%;
+}
+
+.thongtin {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+.logo2 {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.last .last-center {
+    position: absolute;
+    width: 30%;
+    display: inline-block;
+    margin: 50px;
+    line-height: 1.5;
+}
